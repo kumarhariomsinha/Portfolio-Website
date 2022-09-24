@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e547bed4b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h2><span><p style="color: #ff004f; font-size: 30px;font-style:'Poppins', sans-serif ">Welcome</p> to my Portfolio</span></h2>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Interests</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer with<br> 1+ Year of Solid Experience</p>
+                <h1>Hi, I am <span>Hariom</span><br> Kumar from Bengaluru</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Selfie.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Working experience of 1+ year in Java, SpringBoot and JavaScript. Have pursued MCA(2021 batch) from NIT Warangal. Passionate about learning and creating new Software Products.Skilled in HTML, CSS, ReactJs.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span><br>Rate my self 4/5</li>
+                        <li><span>CSS</span><br>Rate my self 3/5</span></li>
+                        <li><span>JavaScript</span><br>Rate my self 3/5</span></li>
+
+                        <li><span>Java</span><br>Rate my self 4/5</span></li>
+                        <li><span>SpringBoot</span><br>Rate my self 4/5</span></li>
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>May 2022 - Current</span><br><i>The Decision Labs | Java, SpringBoot, AWS </i></span></li>
+                        <p>•  &nbsp;Delivered CEMPIA platform timely which gives insights to Hospital Management that allows them to  &nbsp; &nbsp; &nbsp;understand
+                            Patient Experience at every touch point in the several branches of hospital and take &nbsp;&nbsp;&nbsp;actions.<br>
+                            </p>
+                            <p>• Built a full stack web app to take QR feedback by patients in multiple languages for different set of &nbsp; &nbsp; &nbsp;&nbsp; services and 
+                                sub-services present in the hospital.</p>
+                             <p>
+                                • Created several APIs to implement Insights, Scorecard , Complaint Management etc. which ensures &nbsp;&nbsp; real time quality
+                                assessment and performance of various departments and sub departments.
+                                
+                             </p>   
+
+                        <li><span>July 2021 - March 2022 </span><br><i>Kantar</i></li>
+                        <p>• Implemented several Aspose slides by populating data from backend and plotting it in PPT slides &nbsp;&nbsp;and Excel
+                            cells.Worked on SQL and modified different Stored Procedures in database.</p>
+                            <p>• Worked on dashboard Creation using CSS, JavaScript for different clients, enhanced and modified &nbsp;&nbsp;several components in
+                                the project as per clients’ requirements.</p>
+                      <p>
+                      
+                     </p>
+                                
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018-2021</span><br>MCA from <a style="text-decoration: none; color: rgb(242, 240, 237);" href="https://www.nitw.ac.in/">NIT Warangal</a></span></li>
+                        <li><span>2015-2018</span><br>BCA from <a style="text-decoration: none; color: rgb(242, 240, 237);" href="https://www.magadhuniversity.ac.in/">Magadh University</a> </li>
+                        <li><span>2013-2015</span><br>Intermediate from <a style="text-decoration: none; color: rgb(242, 240, 237);" href="https://www.ssinhacollege.co.in/">S.Sinha College</a></li>
+
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- ------------------------------ Services ----------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Interests</h1>
+            <div class="services-list">
+                
+                <div>
+                    <!-- <i class="fas fa-crop-alt"></i> -->
+                    <h2>FrontEnd Development</h2>
+                    <p>I am much very interested and equally skilled in Web Development using HTML, CSS, JavaScript. I have done good number of Frontend projects. Please consider going through my Github account to know more about my work. </p>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic ducimus expedita fugiat est id. Reiciendis, nobis obcaecati. Officiis laborum enim aliquid? In alias quibusdam delectus nobis cum qui natus accusantium voluptates ipsum facilis?</p> -->
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <!-- <i class="fas fa-crop-store"></i> -->
+                    <h2>Backend Development</h2>
+                    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic ducimus expedita fugiat est id. Reiciendis, nobis obcaecati. Officiis laborum enim aliquid? In alias quibusdam delectus nobis cum qui natus accusantium voluptates ipsum facilis?</p> -->
+                   <p>I do backend Development using Java and SpringBoot. It is also my strength as I have industry level experience in the same. I am confident in working with RestApis. I have also worked on some of the Backend applications using different technologies. </p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <!-- <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2></h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti hic ducimus expedita fugiat est id. Reiciendis, nobis obcaecati. Officiis laborum enim aliquid? In alias quibusdam delectus nobis cum qui natus accusantium voluptates ipsum facilis?</p>
+                    <a href="#">Learn More</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!------------------------------ Portfolio------------------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Blogging Application</h3>
+                          <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio esse at architecto odit deleniti non! Quod impedit dolores molestiae eligendi asperiores corporis incidunt itaque sint, sapiente aut temporibus qui illo non!</h3>   -->
+                        <p>A blogging platform is a software or service used to manage and publish content on the internet in the form of a blog </p>
+                          <a href="https://github.com/kumarhariomsinha/Blog-Application"><i class="fas fa-external-link-alt"></i></a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Covid-19 Tracker App</h3>
+                          <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio esse at architecto odit deleniti non! Quod impedit dolores molestiae eligendi asperiores corporis incidunt itaque sint, sapiente aut temporibus qui illo non!</h3>   -->
+                        <p> Developed a web application that shows the number of Covid-19 cases worldwide.
+                            The tool provides data to user with graphs, tables, and maps of covid-19 cases.
+                        </p>
+                          <a href="https://github.com/kumarhariomsinha/Covid-19-Tracker-App"><i class="fas fa-external-link-alt"></i></a> 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Cab Booking App</h3>
+                          <!-- <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque optio esse at architecto odit deleniti non! Quod impedit dolores molestiae eligendi asperiores corporis incidunt itaque sint, sapiente aut temporibus qui illo non!</h3>   -->
+                        <p>Developed Backend Application of Cab Booking App using Java and SpringBoot.</p>
+                          <a href="https://github.com/kumarhariomsinha/CabBookingApplication/tree/main/cabBooking"><i class="fas fa-external-link-alt"></i></a> 
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/kumarhariomsinha" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------------------Contact--------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>hariomsinha16@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>8863825373</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/hariom-kumar-07/"><i class="fab fa-linkedin"></i>&nbsp;LinkedIn</a>
+                        <a href="https://github.com/kumarhariomsinha"><i class="fab fa-github"></i>&nbsp;Github</a>
+                        <br>
+                        <!-- &nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/kumarhariomsinha"><i></i>&nbsp;GeeksForGeeks</a> -->
+
+
+                    </div>
+                    <a href="images/Hariom_Kumar_1yr_Software_EngineerExp.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="email" name="Email" placeholder="Your Email">
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="copyright">
+           <p>Copyright  @ Hariom. Made by Hariom Kumar</p> 
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+        
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="+400px";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyP8G8Iq4V-RBBqy4sPoBoq2ZDRmJz9dXMWeG-3VJIkb25_SPbkODhbPyZCAmii7P05NA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg  = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully!!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
